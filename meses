@@ -1,0 +1,48 @@
+int mes;
+
+Console.WriteLine("Digite um número (1 a 12)");
+mes = Convert.ToInt32(Console.ReadLine());
+
+switch (mes)
+{
+    case 1:
+        Console.WriteLine("SEU MES JANEIRO");
+        break;
+    case 2:
+        Console.WriteLine("SEU MES FEVEREIRO");
+        break;
+    case 3:
+        Console.WriteLine("SEU MES MARÇO");
+        break;
+    case 4:
+        Console.WriteLine("SEU MES ABRIL");
+        break;
+    case 5:
+        Console.WriteLine("SEU MES MAIO");
+        break;
+    case 6:
+        Console.WriteLine("SEU MES JUNHO");
+        break;
+    case 7:
+        Console.WriteLine("SEU MES JULHO");
+        break;
+    case 8:
+        Console.WriteLine("SEU MES AGOSTO");
+        break;
+    case 9:
+        Console.WriteLine("SEU MES SETEMBRO");
+        break;
+    case 10:
+        Console.WriteLine("SEU MES OUTUBRO");
+        break;
+    case 11:
+        Console.WriteLine("SEU MES NOVEMBRO");
+        break;
+    case 12:
+        Console.WriteLine("SEU MES DEZEMBRO");
+        break;
+        default:
+        Console.WriteLine("Digite um número válido");
+        break;
+        return;
+}
